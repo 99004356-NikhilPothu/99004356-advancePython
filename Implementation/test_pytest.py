@@ -5,8 +5,8 @@ from cities import cities_data
 from skills import skills_data
 from hobbies import hobbies_data
 user=Main()
-def test_console_data():
-    assert user.console_data()==1
+# def test_console_data():
+#     assert user.console_data()==1
 def test_profile_data():
     assert profile_data(1,"nik.xlsx")==1
 def test_academics_data():
